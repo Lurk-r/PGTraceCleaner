@@ -2,6 +2,8 @@
 
 Pixel Gun 3D/PG3D/2 Trace Cleaner is a script made for reducing ban chances when creating or playing on new PG accounts by cleaning local traces (i.e account traces, logs) left by the game.
 
+**[Download](https://github.com/Lurk-r/PG-Trace-Cleaner/releases/latest)**
+
 ---
 
 ## Features
@@ -35,4 +37,4 @@ Pixel Gun 3D/PG3D/2 Trace Cleaner is a script made for reducing ban chances when
 - Join my Discord for support, guides etc.: https://discord.gg/GYSdwzQtD3
 
 
-> Credit to YeetDisDude's BanTraceCleaner
+> Credit to YeetDisDude's [BanTraceCleaner](https://github.com/YeetDisDude/bantracecleaner)
