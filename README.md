@@ -1,6 +1,6 @@
 # Pixel Gun Trace Cleaner - PGTC
 
-Pixel Gun 3D/PG3D/2 Trace Cleaner is a script made for reducing ban chances when creating or playing on new PG accounts by cleaning local traces (i.e account/ban traces, logs) left by the game.
+PGTC is a simple script made for reducing ban chances when creating or playing on new PG accounts by cleaning local traces (i.e account/ban traces, logs) left by Pixel Gun 3D/PG3D (Pixel Gun 2/PG2?).
 
 **[Download](https://github.com/Lurk-r/PG-Trace-Cleaner/releases/latest)**
 
@@ -9,8 +9,9 @@ Pixel Gun 3D/PG3D/2 Trace Cleaner is a script made for reducing ban chances when
 ## Features
 
 - Detects and deletes PG's temp files and logs.
-- Cleans registry entries contain account/session data.
+- Cleans registry entries contain account/ban traces.
 - Finds and displays user IDs found in PG local data.
+- Your game settings won't be reset.
 
 ---
 
@@ -22,19 +23,20 @@ Pixel Gun 3D/PG3D/2 Trace Cleaner is a script made for reducing ban chances when
 ---
 
 ## Requirements
+> *running from source*
 
-- Python 3.6+ (if running from source)
-- Python packages: `colorama`, `psutil` (not needed with exe)
+- Python 3.6+
+- Python packages: `colorama`, `psutil`
 
 ---
 
 ## Notes
 
-- Always **close Pixel Gun** before running this script.
+- Join my Discord for support, guides etc.: **https://discord.gg/GYSdwzQtD3**
+- Always **close PG** before running this script.
 - Need to run as Administrator to fully clean traces.
 - This script **only deletes local data**; it CANNOT unban your account.
-- False positives may occur with some antivirus software due to registry and file operations.
-- Join my Discord for support, guides etc.: https://discord.gg/GYSdwzQtD3
+- False positives may occur with antivirus due to registry and file operations.
 
 
 > Credit to YeetDisDude's [BanTraceCleaner](https://github.com/YeetDisDude/bantracecleaner)
