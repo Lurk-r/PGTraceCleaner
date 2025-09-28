@@ -14,14 +14,7 @@ PGTC is a simple script made for reducing ban chances when creating or playing o
 - Your game settings won't reset.
 - Extremely lightweight & portable.
 
----
-
-## How to Use
-
-1. **Close PG** if it's running.
-2. Run `PGTraceCleaner.exe`.
-
----
+--
 
 ## Notes
 
