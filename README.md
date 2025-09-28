@@ -5,7 +5,6 @@ PGTC is a simple script made for reducing ban chances when creating or playing o
 **[Download](https://github.com/Lurk-r/PG-Trace-Cleaner/releases/latest)**
 
 ---
-
 ## Features
 
 - Detect and delete PG's temp files and logs.
@@ -14,8 +13,7 @@ PGTC is a simple script made for reducing ban chances when creating or playing o
 - Your game settings won't reset.
 - Extremely lightweight & portable.
 
---
-
+---
 ## Notes
 
 - Join my Discord for support, guides etc.: **https://discord.gg/GYSdwzQtD3**
