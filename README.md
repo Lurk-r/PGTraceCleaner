@@ -9,25 +9,17 @@ PGTC is a simple script made for reducing ban chances when creating or playing o
 ## Features
 
 - Detect and delete PG's temp files and logs.
-- Cleans registry values contain account/ban traces.
-- Finds account IDs found in PG local data.
-- Your game settings won't be reset.
-- Completely portable exe.
+- Clear registry values contain account/ban traces.
+- Find account IDs found in PG local data.
+- Your game settings won't reset.
+- Extremely lightweight & portable.
 
 ---
 
 ## How to Use
 
 1. **Close PG** if it's running.
-2. Run `PGTraceCleaner.exe` (or `main.py` if running from source).
-
----
-
-## Requirements
-> *running from source*
-
-- Python 3.6+
-- Python packages: `colorama`, `psutil`
+2. Run `PGTraceCleaner.exe`.
 
 ---
 
