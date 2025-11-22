@@ -1,9 +1,9 @@
 # Pixel Gun Trace Cleaner - PGTC
-aka PG BanTraceCleaner
+(aka PG BanTraceCleaner)
 
-PGTC is a simple script made for reducing ban chances when creating or playing on new PG accounts by cleaning local traces (i.e account/ban traces, logs) left by Pixel Gun 3D/PG3D.
+PGTC is a simple script made for reducing ban chances when creating or playing on new PG accounts by cleaning local traces (i.e account/ban traces, logs) left from Pixel Gun 3D/PG3D.
 
-**[Download](https://github.com/Lurk-r/PG-Trace-Cleaner/releases/latest)**
+**[DOWNLOAD](https://github.com/Lurk-r/PG-Trace-Cleaner/releases/latest)**
 
 ---
 ## Features
