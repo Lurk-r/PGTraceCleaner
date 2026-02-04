@@ -1,25 +1,23 @@
 #include "utils.h"
-#include <windows.h>
 #include <iostream>
+namespace {
+    WORD colorForLevel(LogLevel level) {
+        switch (level) {
+        case LogLevel::WARN:    return FOREGROUND_RED | FOREGROUND_GREEN;
+        case LogLevel::ERR:     return FOREGROUND_RED | FOREGROUND_INTENSITY;
+        case LogLevel::SUCCESS: return FOREGROUND_GREEN | FOREGROUND_INTENSITY;
+        default:                return FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE;
+        }
+    }
+}
 void log(const std::string& msg, LogLevel level) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(hConsole, colorForLevel(level));
     switch (level) {
-    case LogLevel::INFO:
-        SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
-        std::cout << "[INFO] ";
-        break;
-    case LogLevel::WARN:
-        SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN);
-        std::cout << "[WARN] ";
-        break;
-    case LogLevel::ERR:
-        SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_INTENSITY);
-        std::cout << "[ERROR] ";
-        break;
-    case LogLevel::SUCCESS:
-        SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_INTENSITY);
-        std::cout << "[SUCCESS] ";
-        break;
+    case LogLevel::WARN:    std::cout << "[WARN] "; break;
+    case LogLevel::ERR:     std::cout << "[ERROR] "; break;
+    case LogLevel::SUCCESS: std::cout << "[SUCCESS] "; break;
+    default:                std::cout << "[INFO] "; break;
     }
     SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
     std::cout << msg << std::endl;
