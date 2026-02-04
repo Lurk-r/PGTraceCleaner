@@ -9,9 +9,9 @@ int main() {
     clearConsole();
     setConsoleTitle("PGTC - Pixel Gun Trace Cleaner");
     std::cout << "> Pixel Gun Trace Cleaner | by .lurk_r <+>\n";
-    std::cout << "- PGTC reduces ban chances on new account.\n";
-    std::cout << "- Run this before creating/playing on new account.\n";
-    std::cout << "- Join discord.gg/GYSdwzQtD3\n\n";
+    std::cout << "- Reduce ban risks, fix some local bugs, clean up old data etc.\n";
+    std::cout << "- Recommended to run this before creating/playing on new account.\n";
+    std::cout << "- Join our server at https://dsc.gg/algea\n\n";
     if (isPixelGunRunning()) {
         log("Pixel Gun is running. Please close it before running this script.", LogLevel::ERR);
         std::cout << "Press Enter to exit.";
@@ -88,4 +88,5 @@ int main() {
     std::cout << "[" << completed << " / 3] Cleanup completed. Press Enter to exit.";
     std::cin.get();
     return 0;
+
 }
